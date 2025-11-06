@@ -1,0 +1,102 @@
+/* ======= STIL GENERAL ======= */
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  margin: 0;
+  background: #cce6ff; /* baby blue */
+  color: #222;
+  scroll-behavior: smooth;
+}
+
+/* ======= HEADER ======= */
+header {
+  background: linear-gradient(135deg, #66b3ff, #3399ff);
+  color: white;
+  text-align: center;
+  padding: 60px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/* ======= NAVIGAȚIE ======= */
+nav {
+  background: #3399ff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+  background: #1a75ff;
+  transform: scale(1.05);
+}
+
+/* ======= SECTIUNI ======= */
+main {
+  max-width: 950px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  color: #0073e6;
+  border-left: 6px solid #0073e6;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.05em;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+ul {
+  line-height: 1.8;
+  list-style-type: "🏃‍♂️ ";
+  padding-left: 25px;
+  margin-top: 10px;
+}
+
+/* ======= FOOTER ======= */
+footer {
+  background: #3399ff;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.9em;
+  letter-spacing: 0.3px;
+}
